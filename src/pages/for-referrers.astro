@@ -1,0 +1,9 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Layout as SiteLayout } from '../components/layout/Layout.tsx';
+import ForReferrers from '../react-pages/ForReferrers.tsx';
+---
+<SiteLayout><Layout title="For Referrers | InKindRa">
+  <ForReferrers client:only="react" />
+</SiteLayout>
+</Layout>
